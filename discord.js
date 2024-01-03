@@ -121,7 +121,7 @@ client.on('message', async (message) => {
       message.reply('An error occurred while changing your GrowID.');
     }
   }
-  if (command === 'buyaccount') {
+  if (command === 'buyaccount82828288282828288282') {
     const amount = parseInt(args[0]);
   
     // Check if a valid amount was provided
@@ -176,7 +176,7 @@ client.on('message', async (message) => {
     }
   }  
   if (message.content.startsWith('/deposit')) {
-    const depositText = '```Put your DLS, WLS in GrowBet77 bot and it will be automatically added to your balance.```';
+    const depositText = '```Not Set```';
     message.channel.send(depositText);
     
     // Here you could add code to automatically detect and upload the DLS to the user's balance in the database
@@ -192,7 +192,7 @@ client.on('message', async (message) => {
 
       if (rows.length > 0) {
         const balance = rows[0].balance;
-        message.reply(`Your balance is ${balance} Wls.`);
+        message.reply(`Your balance is ${balance} <:WorldLock:1192070248929697863>.`);
       } else {
         message.reply('You have not set your GrowID yet.');
       }
