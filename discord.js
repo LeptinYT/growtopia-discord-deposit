@@ -203,4 +203,4 @@ client.on('message', async (message) => {
   }
 });
 
-client.login('ur discord token');
+client.login('MTE4Mjk4OTc5MDU1NjIwNTExNg.GCJDW3.xEe57JndDiB3weoYNvwvwJwjttwRr-DFP8d2fc');
